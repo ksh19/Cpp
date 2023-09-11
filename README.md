@@ -160,7 +160,7 @@ HCURSOR CMFCApplication5Dlg::OnQueryDragIcon()
    return static_cast<HCURSOR>(m_hIcon);
 }
 
-````
+
 CPoint opnt;
 COLORREF m_Col; // 색상 변경
 int n;
@@ -194,6 +194,6 @@ void CMFCApplication5Dlg::OnBnClickedButton1() // 색상 선택 버튼
    
 }
 ```
-````
+
 ![image](https://github.com/ksh19/Cpp/assets/102785836/e7e0703e-33f4-48da-8eb7-6d43e9eacf0a)
 
