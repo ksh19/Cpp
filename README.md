@@ -160,9 +160,9 @@ HCURSOR CMFCApplication5Dlg::OnQueryDragIcon()
    return static_cast<HCURSOR>(m_hIcon);
 }
 
-
+````
 CPoint opnt;
-COLORREF m_Col;
+COLORREF m_Col; // 색상 변경
 int n;
 
 void CMFCApplication5Dlg::OnNMCustomdrawSlider1(NMHDR* pNMHDR, LRESULT* pResult) // 슬라이더로 펜 굵기 설정
@@ -181,7 +181,7 @@ void CMFCApplication5Dlg::OnMouseMove(UINT nFlags, CPoint point) // 마우스 �
       dc.MoveTo(opnt);
       dc.LineTo(point);
    }
-   opnt = point;
+   opnt = point; // 마우스 포인터 업데이트
    CDialogEx::OnMouseMove(nFlags, point);
 }
 
@@ -194,6 +194,6 @@ void CMFCApplication5Dlg::OnBnClickedButton1() // 색상 선택 버튼
    
 }
 ```
-
+````
 ![image](https://github.com/ksh19/Cpp/assets/102785836/e7e0703e-33f4-48da-8eb7-6d43e9eacf0a)
 
