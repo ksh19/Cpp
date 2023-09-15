@@ -3,7 +3,7 @@
 ## SDI 기반 펜 만들기
 
 <PenView.cpp>
-```
+```ruby
 // PenView.cpp: CPenView 클래스의 구현
 //
 
@@ -176,8 +176,9 @@ void CPenView::OnSize32()
 	Size = 32;// TODO: 여기에 명령 처리기 코드를 추가합니다.
 }
 ```
+
 <CLine.cpp>
-```
+```ruby
 #include "pch.h"
 #include "CLine.h"
 
@@ -195,8 +196,9 @@ void CLine::Serialize(CArchive& ar)
 	}
 }
 ```
+
 <PenDoc.cpp>
-```
+```ruby
 
 // PenDoc.cpp: CPenDoc 클래스의 구현
 //
@@ -251,9 +253,6 @@ BOOL CPenDoc::OnNewDocument()
 	m_oa.RemoveAll();
 	return TRUE;
 }
-
-
-
 
 // CPenDoc serialization
 
@@ -333,8 +332,9 @@ void CPenDoc::Dump(CDumpContext& dc) const
 
 // CPenDoc 명령
 ```
+
 <CLine.h>
-```
+```ruby
 #pragma once
 #include <afx.h>
 class CLine :
@@ -362,9 +362,9 @@ public:
     virtual void Serialize(CArchive& ar);
 };
 ```
-<PenDoc.h>
-```
 
+<PenDoc.h>
+```ruby
 // PenDoc.h: CPenDoc 클래스의 인터페이스
 //
 
@@ -413,9 +413,9 @@ protected:
 #endif // SHARED_HANDLERS
 };
 ```
-<PenView.h>
-```
 
+<PenView.h>
+```ruby
 // PenView.h: CPenView 클래스의 인터페이스
 //
 
