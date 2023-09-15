@@ -1,9 +1,8 @@
 # Cpp
 
 ## SDI 기반 펜 만들기
-```
 <PenView.cpp>
-
+```
 // PenView.cpp: CPenView 클래스의 구현
 //
 
