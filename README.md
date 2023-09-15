@@ -1,6 +1,7 @@
 # Cpp
 
 ## SDI 기반 펜 만들기
+
 <PenView.cpp>
 ```
 // PenView.cpp: CPenView 클래스의 구현
@@ -193,7 +194,7 @@ void CLine::Serialize(CArchive& ar)
 		ar >> m_From >> m_To >> m_Size >> m_Col;
 	}
 }
-```
+
 <PenDoc.cpp>
 ```
 
