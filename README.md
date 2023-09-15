@@ -194,7 +194,7 @@ void CLine::Serialize(CArchive& ar)
 		ar >> m_From >> m_To >> m_Size >> m_Col;
 	}
 }
-
+```
 <PenDoc.cpp>
 ```
 
