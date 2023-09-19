@@ -711,6 +711,11 @@ inline CPenDoc* CPenView::GetDocument() const
    { return reinterpret_cast<CPenDoc*>(m_pDocument); }
 #endif
 ```
+1. mfc앱 -> 대화상자기반으로 프로젝트를 하나 만들어준 뒤에, Button과 List Box를 추가해준다. 그리고 List Box에 변수추가를 하여 이름에 m_List를 써준다.
+![image](https://github.com/ksh19/Cpp/assets/102785836/723d69ba-7bfd-449c-9d7f-ece64d2705c9)
+2. 옆에 리소스뷰에서 Dialog 폴더에 삽입을 눌러 새로운 Son Dialog를 추가해준다. 
+
+
 ![image](https://github.com/ksh19/Cpp/assets/102785836/f170b845-f5df-4c7e-871f-bc97fc0f7b27)
 
 
