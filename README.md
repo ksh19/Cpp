@@ -237,7 +237,7 @@ void CModeless::PostNcDestroy()
 	CDialogEx::PostNcDestroy();
 }
 ```
-<p align="left">
+
 1. mfc앱 -> 대화상자기반으로 프로젝트를 하나 만들어준 뒤에, Button과 List Box를 추가해준다. 그리고 List Box에 변수추가를 하여 이름에 m_List를 써준다.   
 ![image](https://github.com/ksh19/Cpp/assets/102785836/723d69ba-7bfd-449c-9d7f-ece64d2705c9)
 
@@ -252,7 +252,7 @@ void CModeless::PostNcDestroy()
 
 5. 이렇게 해서 결과는 다음과 같다.
 ![image](https://github.com/ksh19/Cpp/assets/102785836/44a5ca9e-b763-4fdd-a974-863c2c55e401)
-</p>
+
 
 ## SDI 기반 펜 만들기
 
