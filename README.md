@@ -240,12 +240,13 @@ void CModeless::PostNcDestroy()
 
 1. mfc앱 -> 대화상자기반으로 프로젝트를 하나 만들어준 뒤에, Button과 List Box를 추가해준다. 그리고 List Box에 변수추가를 하여 이름에 m_List를 써준다.
 ![image](https://github.com/ksh19/Cpp/assets/102785836/723d69ba-7bfd-449c-9d7f-ece64d2705c9)
-2. 옆에 리소스뷰에서 Dialog 폴더에 삽입을 눌러 새로운 Son Dialog를 추가해준다. 
-
-
-![image](https://github.com/ksh19/Cpp/assets/102785836/f170b845-f5df-4c7e-871f-bc97fc0f7b27)
-
-3. 결과
+2. Button을 누르면 자식의 창이 떠야하기 때문에 코드를 추가해준다.
+![image](https://github.com/ksh19/Cpp/assets/102785836/4bf1c256-ebf2-4074-87fa-f8cd6e4f621f)
+3. 옆에 리소스뷰에서 Dialog 폴더에 삽입을 눌러 새로운 Son Dialog를 추가해준다. 그리고 Edit Control과 Button을 추가해주고 Edit Control에 변수이름 m_Str을 써준다.
+![image](https://github.com/ksh19/Cpp/assets/102785836/e70e8828-bab7-4253-84f5-24c39d326b8e)
+4. SonDlg에 있는 버튼을 부모와 연결시켜주어야 하기에 다음과 같은 코드를 써준다. 여기서 PostNcDestroy는 클래스마법사의 가상함수에 들어가 추가할 수 있다.
+![image](https://github.com/ksh19/Cpp/assets/102785836/ea7bdf10-1433-442f-8b8f-bb92ed82a0ad)
+5. 결과
 ![image](https://github.com/ksh19/Cpp/assets/102785836/44a5ca9e-b763-4fdd-a974-863c2c55e401)
 
 ## SDI 기반 펜 만들기
@@ -720,6 +721,7 @@ inline CPenDoc* CPenView::GetDocument() const
    { return reinterpret_cast<CPenDoc*>(m_pDocument); }
 #endif
 ```
+![image](https://github.com/ksh19/Cpp/assets/102785836/f170b845-f5df-4c7e-871f-bc97fc0f7b27)
 
 ## MFC 기반 펜 만들기
 ```ruby
