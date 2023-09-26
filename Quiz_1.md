@@ -1,4 +1,7 @@
+![image](https://github.com/ksh19/Cpp/assets/102785836/734b51ca-381f-45fb-8bf6-2e46822cd5ee)
 
+
+```ruby
 // PenView.cpp: CPenView 클래스의 구현
 //
 
@@ -214,3 +217,4 @@ void CPenView::OnContextMenu(CWnd* /*pWnd*/, CPoint point)
 	menu.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
 
 }
+```
