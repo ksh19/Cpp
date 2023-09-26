@@ -2,7 +2,7 @@
 
 ## 이중 모덜리스 다이얼로그
 
-<My2Dlg.cpp>
+- My2Dlg.cpp
 ```ruby
 
 // My2Dlg.cpp: 구현 파일
@@ -171,7 +171,7 @@ void CMy2Dlg::OnBnClickedButton1()
 }
 ```
 
-<CModeless.cpp>
+- CModeless.cpp
 ```ruby
 // CModeless.cpp: 구현 파일
 //
@@ -266,7 +266,7 @@ void CModeless::PostNcDestroy()
 
 ## SDI 기반 펜 만들기
 
-<PenView.cpp>
+- PenView.cpp
 ```ruby
 // PenView.cpp: CPenView 클래스의 구현
 //
@@ -441,7 +441,7 @@ void CPenView::OnSize32()
 }
 ```
 
-<CLine.cpp>
+- CLine.cpp
 ```ruby
 #include "pch.h"
 #include "CLine.h"
@@ -461,7 +461,7 @@ void CLine::Serialize(CArchive& ar)
 }
 ```
 
-<PenDoc.cpp>
+- PenDoc.cpp
 ```ruby
 
 // PenDoc.cpp: CPenDoc 클래스의 구현
@@ -477,7 +477,7 @@ void CLine::Serialize(CArchive& ar)
 
 #include "PenDoc.h"
 
-#include <propkey.h>
+#include propkey.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -597,7 +597,7 @@ void CPenDoc::Dump(CDumpContext& dc) const
 // CPenDoc 명령
 ```
 
-<CLine.h>
+- CLine.h
 ```ruby
 #pragma once
 #include <afx.h>
@@ -627,7 +627,7 @@ public:
 };
 ```
 
-<PenDoc.h>
+- PenDoc.h
 ```ruby
 // PenDoc.h: CPenDoc 클래스의 인터페이스
 //
