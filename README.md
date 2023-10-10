@@ -8,4 +8,4 @@
 ### <a href = "https://github.com/ksh19/Cpp/new/main">SDI 기반 펜 만들기</a>
 <p></p>
 
-### <a href = "https://github.com/ksh19/Cpp/new/main">MFC 기반 펜 만들기</a>
+### <a href = ["https://github.com/ksh19/Cpp/new/main"](https://github.com/ksh19/Cpp/blob/main/MFC%20%EA%B8%B0%EB%B0%98%20%ED%8E%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)https://github.com/ksh19/Cpp/blob/main/MFC%20%EA%B8%B0%EB%B0%98%20%ED%8E%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md>MFC 기반 펜 만들기</a>
