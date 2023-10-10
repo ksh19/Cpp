@@ -229,3 +229,7 @@ void CMy11View::OnBnClickedButton1()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 }
 ```
+
+### MFC_FormView를 이용하여 스핀, 실린더, 프로그래스 등 수업에서 배운 것과 그렇지 않은 것들을 같이 섞어서 그림판을 만들어보았습니다.
+
+![image](https://github.com/ksh19/Cpp/assets/102785836/3ad21abe-a0aa-4040-9458-9b7ee1370883)
