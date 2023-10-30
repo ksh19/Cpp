@@ -1,4 +1,4 @@
-```
+```ruby
 #include <afxwin.h>
 #include <afxmt.h>
 #include <vector>
