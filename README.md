@@ -1,6 +1,6 @@
 # Cpp
 
-### <a href = "https://github.com/ksh19/Cpp/blob/main/%EB%A9%80%ED%8B%B0%EC%93%B0%EB%A0%88%EB%93%9C.md">멀티쓰레드 최댓값 찾기</a>
+### <a href = "https://github.com/ksh19/Cpp/blob/main/%EB%A9%80%ED%8B%B0%EC%93%B0%EB%A0%88%EB%93%9C.md">멀티쓰레드 최솟값 찾기</a>
 <p></p>
 
 ### <a href = "https://github.com/ksh19/Cpp/blob/main/Multi-tasking.md">멀티테스킹 예제</a>
