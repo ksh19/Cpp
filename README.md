@@ -1,13 +1,12 @@
 # Cpp
 
-## <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(최종_1)</a>
-<p></p>
-## <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(최종_2)</a>
-<p></p>
-## <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(최종_3)</a>
-<p></p>
-## <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(최종_4)</a>
-<p></p>
+## 기말 실기 시험(최종)
+1. <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(1)</a>
+2. <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(2)</a>
+3. <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(3)</a>
+4. <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">기말 실기 시험(4)</a>
+
+## 실습
 
 ### <a href = "https://github.com/ksh19/Cpp/blob/main/포토뷰어.md">포토뷰어 만들기</a>
 <p></p>
